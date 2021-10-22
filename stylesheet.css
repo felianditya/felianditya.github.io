@@ -1,0 +1,63 @@
+body {
+    font-family:'Lucida Sans';
+    min-height: 2000px;
+}
+
+.main {
+    padding: 100px 50px 100px 50px;
+}
+        
+.copy-container h1 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: orange;
+    color: #fdc324;
+    height: 350px;
+    border-radius: 30px;
+    background-color:lightgoldenrodyellow;
+    padding-left: 140px;
+    padding-right: 120px;
+    padding-top: 40px;
+    background-image: url(https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size:cover;
+}
+.copy-container p {
+    font-size: 55px;
+    border-top-width: 30px;
+    color:#fdc324;
+    
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.contents-item {
+    float: left;
+    margin-right: 70px;
+    margin-top: 30px;
+    align-items:center;
+    padding-left: 10px;
+}
+
+.contents-item p {
+    font-size: 15px;
+    margin-top: 30px;
+    text-align:center;
+}
+
+
+#menu        {
+    background-color: #ffcc33;
+}
+
+@media only screen and(min-width: 68px) {
+   #menu img{
+       width: 100px;
+   }
+}
+
+.footer {
+    background: #ffbd00;
+}
